@@ -40,7 +40,7 @@ for brand in brands:
         try:
             time.sleep(0.5)
             driver.find_element_by_xpath("//*[name()='svg' and @class='css-15yx468 ']").click()
-            #driver.find_element_by_xpath("//button[@class='css-812ha7 ']").click()
+            
         except Exception as e:
             print(e)
             break   
